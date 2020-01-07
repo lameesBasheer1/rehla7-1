@@ -1,0 +1,31 @@
+ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 20;
+  overflow: hidden;
+  background-color: #444;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: black;
+  color: white;
+  text-align: center;
+  padding: 20px 18px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: pink;
+}
+
+.active {
+  background-color :gray;
+}
+.moon{
+	
+float:right;
+}
